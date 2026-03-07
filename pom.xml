@@ -93,6 +93,7 @@
                     <formats>
                         <format>HTML</format>
                         <format>XML</format>
+                        <format>JSON</format>
                     </formats>
                     <prettyPrint>true</prettyPrint>
                 </configuration>
