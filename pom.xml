@@ -111,13 +111,20 @@
                 <artifactId>spotbugs-maven-plugin</artifactId>
                 <version>${spotbugs.plugin.version}</version>
                 <configuration>
+                    <!-- 
                     <includeFilterFile>${maven.multiModuleProjectDirectory}/spotbugs/spotbugs-security-include.xml</includeFilterFile>
                     <excludeFilterFile>${maven.multiModuleProjectDirectory}/spotbugs/spotbugs-security-exclude.xml</excludeFilterFile>
+                    -->
                     <plugins>
                         <plugin>
                             <groupId>com.h3xstream.findsecbugs</groupId>
                             <artifactId>findsecbugs-plugin</artifactId>
                             <version>${findsecbugs.version}</version>
+                        </plugin>
+                        <plugin>
+                            <groupId>com.mebigfatguy.sb-contrib</groupId>
+                            <artifactId>sb-contrib</artifactId>
+                            <version>7.7.4</version>
                         </plugin>
                     </plugins>
                     <xmlOutput>true</xmlOutput>
@@ -132,7 +139,23 @@
                     </execution>
                 </executions>
             </plugin>
-
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.28.0</version>
+                <configuration>
+					<linkXRef>false</linkXRef>
+				</configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>pmd</goal>
+                            <goal>cpd</goal>
+                        </goals>
+                        <phase>compile</phase>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>com.diffplug.spotless</groupId>
                 <artifactId>spotless-maven-plugin</artifactId>
