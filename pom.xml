@@ -90,6 +90,11 @@
                     <suppressionFiles>
                         <suppressionFile>${maven.multiModuleProjectDirectory}/owasp/project-suppressions.xml</suppressionFile>
                     </suppressionFiles>
+                    <formats>
+                        <format>HTML</format>
+                        <format>XML</format>
+                    </formats>
+                    <prettyPrint>true</prettyPrint>
                 </configuration>
                 <executions>
                     <execution>
