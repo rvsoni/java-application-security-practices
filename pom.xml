@@ -35,6 +35,7 @@
         <findsecbugs.version>1.14.0</findsecbugs.version>
         <snakeyaml.version>1.25</snakeyaml.version>
         <bouncycastle.version>1.83</bouncycastle.version>
+        <project.scm.id>github.com</project.scm.id>
     </properties>
 
     <parent>
