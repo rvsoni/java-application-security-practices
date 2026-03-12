@@ -9,6 +9,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <scm>
+        <connection>scm:git:https://github.com/rvsoni/java-application-security-practices.git</connection>
+        <developerConnection>scm:git:https://github.com/rvsoni/java-application-security-practices.git</developerConnection>
+        <url>https://github.com/rvsoni/java-application-security-practices.git</url>
+    </scm>
+
     <properties>
         <jdk.version>25</jdk.version>
         <openapi.maven.plugin.version>7.18.0</openapi.maven.plugin.version>
