@@ -5,7 +5,7 @@
     <parent>
         <groupId>ionutbalosin.training.application.security.practices</groupId>
         <artifactId>application-security-practices</artifactId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.2</version>
     </parent>
 
     <name>Pizza Cooking Service</name>
@@ -15,32 +15,32 @@
         <dependency>
             <groupId>ionutbalosin.training.application.security.practices</groupId>
             <artifactId>pizza-cooking-api</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.2</version>
         </dependency>
         <dependency>
             <groupId>ionutbalosin.training.application.security.practices</groupId>
             <artifactId>pizza-delivery-api</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.2</version>
         </dependency>
         <dependency>
             <groupId>ionutbalosin.training.application.security.practices</groupId>
             <artifactId>security-slf4j-logger-enricher</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.2</version>
         </dependency>
         <dependency>
             <groupId>ionutbalosin.training.application.security.practices</groupId>
             <artifactId>security-feign-logger-enricher</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.2</version>
         </dependency>
         <dependency>
             <groupId>ionutbalosin.training.application.security.practices</groupId>
             <artifactId>security-token-jwks</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.2</version>
         </dependency>
         <dependency>
             <groupId>ionutbalosin.training.application.security.practices</groupId>
             <artifactId>security-token-client-credentials-fetcher</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.2</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
