@@ -5,14 +5,14 @@
     <name>Java Application Security Practices</name>
     <groupId>ionutbalosin.training.application.security.practices</groupId>
     <artifactId>application-security-practices</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <scm>
         <connection>scm:git:https://github.com/rvsoni/java-application-security-practices.git</connection>
         <developerConnection>scm:git:https://github.com/rvsoni/java-application-security-practices.git</developerConnection>
         <url>https://github.com/rvsoni/java-application-security-practices.git</url>
-      <tag>application-security-practices-0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
