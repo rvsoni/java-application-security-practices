@@ -287,7 +287,7 @@
             <id>release-profile</id>
             <distributionManagement>
                 <repository>
-                    <id>nexus-release</id>
+                    <id>nexus-releases</id>
                     <name>Releases Repository</name>
                     <url>http://localhost:8081/repository/maven-releases</url>
                 </repository>
