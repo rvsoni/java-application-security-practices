@@ -283,10 +283,31 @@
         </dependencies>
     </dependencyManagement>
 
-    <profiles>
-        <profile>
-			<id>idsk-release</id>
-    	</profile>
-	</profiles>
+    <profile>
+        <id>release-profile</id>
+        <distributionManagement>
+            <repository>
+                <id>nexus-release</id>
+                <name>Releases Repository</name>
+                <url>http://localhost:8081/repository/maven-releases</url>
+            </repository>
+        </distributionManagement>
+    </profile>
+    <profile>
+        <id>snapshots-profile</id>
+        <distributionManagement>
+            <repository>
+                <id>nexus-snapshots</id>
+                <name>Snapshots Repository</name>
+                <url>http://localhost:8081/repository/maven-snapshots</url>
+            </repository>
+            <snapshotRepository>
+                <uniqueVersion>false</uniqueVersion>
+                <id>nexus-snapshots</id>
+                <name>Snapshots Sepository</name>
+                <url>http://localhost:8081/repository/maven-snapshots</url>
+            </snapshotRepository>
+        </distributionManagement>
+    </profile>
 
 </project>
